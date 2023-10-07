@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Text Copy Extension",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "clipboardWrite",
+      "identity"
+    ],
+    "oauth2": {
+      "client_id": "148295895700-cfg7ioc94vkj1aou99ocbb3ufkds298m.apps.googleusercontent.com",
+      "scopes": ["https://www.googleapis.com/auth/keep"]
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/extension-cord.png",
+        "48": "images/extension-cord.png",
+        "128": "images/extension-cord.png"
+      }
+    }
+  }

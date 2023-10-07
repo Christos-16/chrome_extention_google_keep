@@ -77,17 +77,16 @@ The `manifest.json` file defines the extension's properties, including its name,
 3. Click the "Create Note" button to save the text as a note in Google Keep.
 
 ## Tools and Videos that helped
-https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/
-https://www.freecodecamp.org/news/building-chrome-extension/
-https://www.youtube.com/watch?v=0n809nd4Zu4&t=1008s
-https://www.youtube.com/watch?v=B8Ihv3xsWYs
-https://www.youtube.com/watch?v=uV4L-wcnK3Y&t=352s
-https://www.youtube.com/watch?v=UWSxfcWHejY&t=109s
-https://www.youtube.com/watch?v=I5ili_1G0Vk&t=444s
-https://www.youtube.com/watch?v=bhZMYaKmxGo&t=191s
-https://www.youtube.com/watch?v=brCkpzAD0gc
-https://chat.openai.com/ (For help with understanding code and answers to difficult points that I needed to understand in order to continue)
-https://www.deepl.com/translator (For translations of concepts I didn't understand)
+1. https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/
+2. https://www.freecodecamp.org/news/building-chrome-extension/
+3. https://www.youtube.com/watch?v=0n809nd4Zu4&t=1008s
+4. https://www.youtube.com/watch?v=B8Ihv3xsWYs
+5. https://www.youtube.com/watch?v=uV4L-wcnK3Y&t=352s
+6. https://www.youtube.com/watch?v=UWSxfcWHejY&t=109s
+7. https://www.youtube.com/watch?v=I5ili_1G0Vk&t=444s
+8. https://www.youtube.com/watch?v=brCkpzAD0gc
+9. https://chat.openai.com/ (For help with understanding code and answers to difficult points that I needed to understand in order to continue)
+10. https://www.deepl.com/translator (For translations of concepts I didn't understand)
 
 ## Problems I'm facing...
 From what I read the google keep API can work when the extention is normally uploaded to the web store, but because it takes 5€ to upload it I didn't go ahead but I thought it was a good idea and I wanted to share it with you
@@ -176,17 +175,16 @@ chrome.identity.getAuthToken(oauthConfig, function (token) {
 3. Κάντε κλικ στο κουμπί "Δημιουργία σημείωσης" για να αποθηκεύσετε το κείμενο ως σημείωση στο Google Keep.
 
 ## Εργαλεία και βίντεο που βοήθησαν
-https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/
-https://www.freecodecamp.org/news/building-chrome-extension/
-https://www.youtube.com/watch?v=0n809nd4Zu4&t=1008s
-https://www.youtube.com/watch?v=B8Ihv3xsWYs
-https://www.youtube.com/watch?v=uV4L-wcnK3Y&t=352s
-https://www.youtube.com/watch?v=UWSxfcWHejY&t=109s
-https://www.youtube.com/watch?v=I5ili_1G0Vk&t=444s
-https://www.youtube.com/watch?v=bhZMYaKmxGo&t=191s
-https://www.youtube.com/watch?v=brCkpzAD0gc
-https://chat.openai.com/ (Για βοήθεια στην κατανόηση του κώδικα και απαντήσεις σε δύσκολα σημεία που έπρεπε να καταλάβω για να συνεχίσω)
-https://www.deepl.com/translator (Για μεταφράσεις εννοιών που δεν κατάλαβα)
+1. https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/
+2. https://www.freecodecamp.org/news/building-chrome-extension/
+3. https://www.youtube.com/watch?v=0n809nd4Zu4&t=1008s
+4. https://www.youtube.com/watch?v=B8Ihv3xsWYs
+5. https://www.youtube.com/watch?v=uV4L-wcnK3Y&t=352s
+6. https://www.youtube.com/watch?v=UWSxfcWHejY&t=109s
+7. https://www.youtube.com/watch?v=I5ili_1G0Vk&t=444s
+8. https://www.youtube.com/watch?v=brCkpzAD0gc
+9. https://chat.openai.com/ (Για βοήθεια στην κατανόηση του κώδικα και απαντήσεις σε δύσκολα σημεία που έπρεπε να καταλάβω για να συνεχίσω)
+10. https://www.deepl.com/translator (Για μεταφράσεις εννοιών που δεν κατάλαβα)
 
 ## Προβλήματα που αντιμετωπίζω...
 Από ό, τι διάβασα το google keep API μπορεί να λειτουργήσει όταν η επέκταση ανεβαίνει κανονικά στο web store, αλλά επειδή χρειάζεται 5€ για να το ανεβάσω δεν προχώρησα, αλλά σκέφτηκα ότι ήταν μια καλή ιδέα και ήθελα να τη μοιραστώ μαζί σας

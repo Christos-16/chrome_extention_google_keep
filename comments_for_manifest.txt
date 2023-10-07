@@ -17,7 +17,7 @@
     },
     "action": {
       "default_popup": "popup.html", // Η προεπιλεγμένη HTML του popup για την επέκτασή.
-      "default_icon": { 
+      "default_icon": {
         "16": "images/extension-cord.png", // Εικονίδιο για την επέκταση 16x16 pixels.
         "48": "images/extension-cord.png", // Εικονίδιο για την επέκταση 48x48 pixels.
         "128": "images/extension-cord.png" // Εικονίδιο για την επέκταση 128x128 pixels.

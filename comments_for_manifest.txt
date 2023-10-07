@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3, // Manifest version 3, η μορφή για τις επεκτάσεις του Chrome (εγω χρησιοποιώ Brave οπότε αντίστοιχα για το Brave).
+    "name": "Επέκταση Αντιγραφής Κειμένου προς το Google Keep", // Το όνομα της επέκτασης.
+    "version": "1.0", // Η έκδοση της επέκτασης.
+    "permissions": [ // Οι άδειες που χρειάζεται η επέκταση.
+      "activeTab", //  Άδεια λειτουργίας με την τρέχουσα ενεργή καρτέλα.
+      "contextMenus", //Άδεια δημιουργίας μενού
+      "clipboardWrite", // Άδεια εγγραφής στο πρόχειρο.
+      "identity" // Εξουσιοδότηση του χρήστη για αυθεντικοποίηση.
+    ],
+    "oauth2": { // Ρυθμίσεις OAuth2 για την εξουσιοδότηση με το Google Keep.
+      "client_id": "148295895700-cfg7ioc94vkj1aou99ocbb3ufkds298m.apps.googleusercontent.com", // To id χρήστη για την εφαρμογή στο Google.
+      "scopes": ["https://www.googleapis.com/auth/keep"] // Οι εξουσιοδοτούμενες ενέργειες περιλαμβάνουν την πρόσβαση στο Google Keep.
+    },
+    "background": { // Ρυθμίσεις για τον φόντο της επέκτασης.
+      "service_worker": "background.js" // Καθορίζει ένα σενάριο για εργασίες παρασκηνίου.
+    },
+    "action": {
+      "default_popup": "popup.html", // Η προεπιλεγμένη HTML του popup για την επέκτασή.
+      "default_icon": { 
+        "16": "images/extension-cord.png", // Εικονίδιο για την επέκταση 16x16 pixels.
+        "48": "images/extension-cord.png", // Εικονίδιο για την επέκταση 48x48 pixels.
+        "128": "images/extension-cord.png" // Εικονίδιο για την επέκταση 128x128 pixels.
+      }//Στα εικονίδι όσο και να έψαξα δεν βρήκα πουθενά ξεχωριστά μεγέθη για κάθε απο τα ζητούμενα pixels που έχω
+οπότε έβαλα μια φωτογραφία για όλα την οποία την πήρα απο το https://www.flaticon.com/
+    }
+}
